@@ -1,0 +1,18 @@
+{ 
+"sounds": [
+    {
+      "id"  : 1,
+      "name": "trumpet",
+      "type": "bytebeat-lua",
+      "data": "t*t"
+    },
+    {
+      "id"  : 2,
+      "name": "drum",
+      "type": "bytebeat-lua",
+      "data": "t*bit.rshift(t,bit.band(10,bit.rshift(t,16)+1))"
+    }
+] 
+            
+            
+}
